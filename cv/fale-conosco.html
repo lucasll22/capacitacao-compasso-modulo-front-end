@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fale conosco</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Lucas Lusa">
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img src="assets/img/bill.jpg" alt="bill" width="200" height="200" title="Bill">
+            </figure>
+            <h1>Lucas Lusa</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="curriculum.html">Curriculum</a>
+                    </li>
+                    <li>
+                        <a href="fale-conosco.html">Fale conosco</a>
+                    </li>
+                    <li>
+                        <a href="http://www.github.com/lucasll22/" target="_blank">Meus projetos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2>Fale conosco</h2>
+            <form>
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div>
+                    <label for="sex">sexo</LABel>
+                    <label><input type="radio" name="sex" value="Masculino">Masculino </label>
+                    <label ><input type="radio" name="sex" value="Feminino">Feminino</label>
+                    <label ><input type="radio" name="sex" value="nc">Prefiro não comentar</label>
+                </div>
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div>
+                    <label for="website">website</label>
+                    <input type="url" id="website">
+                </div>
+                <div>
+                    <label for="phone">telefone</label>
+                    <input type="tel" id="phone" pattern="[0-9]{9,9}" required>
+                </div>
+
+
+
+                <div>
+                    <label for="city">cidade</label>
+                    <input type="text" id="city" required>
+                </div>
+                <div>
+                    <label for="state">estado</label>
+                    <select id="state" required>
+                        <option value="RS">RS</option>
+                        <option value="SC">SC</option>
+                        <option value="PR">PR</option>
+                        <option value="SP">SP</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="subject">Assunto</label>
+                    <select id="subject" required>
+                        <option value="sugestao">sugestão</option>
+                        <option value="critica">critica</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="archive">Arquivo</label>
+                    <input type="file" name="archive" id="archive">
+                </div>
+
+                <div>
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" placeholder="Insira sua mensagem" maxlength="140" rows="5" cols="30"></textarea>
+                </div>
+                <div>
+                    <button type="submit">enviar</button>
+                    <button type="reset">reset</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
