@@ -4,22 +4,24 @@
         <title>Fale conosco</title>
         <meta charset="utf-8">
         <meta name="author" content="Lucas Lusa">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
     </head>
     <body>
-        <header>
-            <figure>
-                <img src="assets/img/bill.jpg" alt="bill" width="200" height="200" title="Bill">
+        <header class="main-header">
+            <figure class="container-img">
+                <img src="assets/img/bill.jpg" alt="bill">
             </figure>
-            <h1>Lucas Lusa</h1>
-            <nav>
-                <ul>
-                    <li>
+            <h1 class="main-title">Lucas Lusa</h1>
+            <nav class="menu">
+                <ul class="container-item">
+                    <li class="item">
                         <a href="curriculum.html">Curriculum</a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="fale-conosco.html">Fale conosco</a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="http://www.github.com/lucasll22/" target="_blank">Meus projetos</a>
                     </li>
                 </ul>
@@ -27,39 +29,38 @@
         </header>
 
         <section>
-            <h2>Fale conosco</h2>
-            <form>
-                <div>
+            <form class="main-form">
+            <h2 class="title">Fale conosco</h2>                    
+                <div class="container-text">
                     <label for="name">Nome</label>
                     <input type="text" id="name" required>
                 </div>
-                <div>
-                    <label for="sex">sexo</LABel>
+                <div class="container-text radio">
                     <label><input type="radio" name="sex" value="Masculino">Masculino </label>
                     <label ><input type="radio" name="sex" value="Feminino">Feminino</label>
                     <label ><input type="radio" name="sex" value="nc">Prefiro não comentar</label>
                 </div>
-                <div>
+                <div class="container-text">
                     <label for="email">email</label>
                     <input type="email" id="email" required>
                 </div>
 
-                <div>
+                <div class="container-text">
                     <label for="website">website</label>
                     <input type="url" id="website">
                 </div>
-                <div>
+                <div class="container-text">
                     <label for="phone">telefone</label>
                     <input type="tel" id="phone" pattern="[0-9]{9,9}" required>
                 </div>
 
 
 
-                <div>
+                <div class="container-text">
                     <label for="city">cidade</label>
                     <input type="text" id="city" required>
                 </div>
-                <div>
+                <div class="container-text">
                     <label for="state">estado</label>
                     <select id="state" required>
                         <option value="RS">RS</option>
@@ -68,7 +69,7 @@
                         <option value="SP">SP</option>
                     </select>
                 </div>
-                <div>
+                <div class="container-text">
                     <label for="subject">Assunto</label>
                     <select id="subject" required>
                         <option value="sugestao">sugestão</option>
@@ -76,24 +77,21 @@
                     </select>
                 </div>
                 
-                <div>
+                <div class="container-text">
                     <label for="archive">Arquivo</label>
                     <input type="file" name="archive" id="archive">
                 </div>
 
-                <div>
+                <div class="container-text">
                     <label for="message">Mensagem</label>
                     <textarea id="message" placeholder="Insira sua mensagem" maxlength="140" rows="5" cols="30"></textarea>
                 </div>
-                <div>
-                    <button type="submit">enviar</button>
-                    <button type="reset">reset</button>
+                <div >
+                    <button type="submit" class="btn-submit">enviar</button>
+                    <button type="reset" class="btn-reset">reset</button>
                 </div>
             </form>
         </section>
-        <footer>
-
-        </footer>
-
+        <footer class="main-footer">Todos os direitos reservados</footer>
     </body>
 </html>
