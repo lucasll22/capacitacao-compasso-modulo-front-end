@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: none;
+}
+
+.main-header {
+    height: 200px;
+    float: left;
+    clear: both;
+    width: 100%;
+    background: #000033;
+}
+
+.main-header .logo{
+    float: left;
+    widows: 20%;
+    margin: 50px 200px 50px 50px;
+}
+
+.main-header .search{
+    margin: auto;
+    float: right;
+    clear: right;
+    padding: 20px;
+    margin-right: 20px;
+    width: 600px;
+}
+
+.main-header .menu-superior{
+    background: #fff;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    
+    float: right;
+    clear: right;
+}
+
+.main-header .superior-lista{
+    list-style: none;
+}
+
+.menu-superior .superior-lista .superior-item{
+   float: left;
+   margin: 5px;
+}
+
+.superior-lista .superior-item a{
+    color: #000;
+    text-decoration: none;
+ }
+
+.menu{
+    height: 60px;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-bottom: 50px;
+    background: #000066;
+    color: #fff;
+}
+
+.menu .menu-lista{
+    list-style: none;
+}
+
+.menu .menu-lista .menu-lista-item{
+    float: left;
+    width: 20%;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.menu-lista .menu-lista-item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+.main .main-destaque-imagem{
+    float: left;
+}
+
+.novidades{
+    clear: both;
+}
+.novidades .novidades-produto{
+    float: left;
+}
+
+
