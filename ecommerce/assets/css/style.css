@@ -2,13 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     font-weight: none;
 }
 
+
 .main-header {
-    height: 200px;
     float: left;
     clear: both;
     width: 100%;
@@ -18,7 +18,7 @@
 .main-header .logo{
     float: left;
     widows: 20%;
-    margin: 50px 200px 50px 50px;
+    margin: 50px 50px 50px 10%;
 }
 
 .main-header .search{
@@ -26,32 +26,37 @@
     float: right;
     clear: right;
     padding: 20px;
-    margin-right: 20px;
+    margin-right: 15%;
     width: 600px;
 }
 
-.main-header .menu-superior{
-    background: #fff;
+.main-header .menu-top{
+    background: #000066;
     margin-bottom: 30px;
-    margin-right: 20px;
+    margin-right: 15%;
     
     float: right;
     clear: right;
 }
 
-.main-header .superior-lista{
+.main-header .list-top{
     list-style: none;
 }
 
-.menu-superior .superior-lista .superior-item{
+.menu-top .list-top .item-top{
    float: left;
    margin: 5px;
 }
 
-.superior-lista .superior-item a{
-    color: #000;
+.list-top .item-top a{
+    color: #fff;
     text-decoration: none;
  }
+
+ .list-top .item-top a:hover{
+    background: #000099;
+    text-decoration: none;
+}
 
 .menu{
     height: 60px;
@@ -63,19 +68,30 @@
     color: #fff;
 }
 
-.menu .menu-lista{
+.menu .menu-list{
     list-style: none;
+    height: 100%;
 }
 
-.menu .menu-lista .menu-lista-item{
+.menu .menu-list .menu-list-item{
     float: left;
     width: 20%;
-    margin: 15px 0;
+    height: 100%;
+    
     text-align: center;
 }
 
-.menu-lista .menu-lista-item a{
+.menu-list .menu-list-item a{
     color: #fff;
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-list .menu-list-item a:hover{
+    background: #000099;
     text-decoration: none;
 }
 
@@ -83,15 +99,108 @@
     width: 80%;
     margin: auto;
 }
-.main .main-destaque-imagem{
+.main .main-d-image{
     float: left;
 }
 
-.novidades{
+.main .main-d h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news{
     clear: both;
 }
-.novidades .novidades-produto{
+.news .news-product{
     float: left;
+    width: calc(100%/3);
 }
 
 
+.news h2{
+    padding: 30px 0 10px 0;
+    font-size: 24px;
+    margin: 10px 0;
+    width: 100%;
+    float: left;
+    clear: both;    
+}
+
+.best-seller .best-seller-product{
+    float: left;
+    width: calc(100%/3);
+}
+
+.best-seller h2{
+    margin: 30px 0 10px 0;
+    font-size: 24px;
+
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.main-footer{
+    float: left;
+    clear: both;
+    padding: 10px 10% 10px 10%;
+    margin-top: 20px;
+    background: #ccc;
+    width: 100%;
+}
+
+.main-footer ul{
+    list-style: none;
+}
+
+.main-footer a{
+    color: #000;
+    text-decoration: none;
+}
+
+.main-footer .institutional{
+    float: left;
+    width: calc(80%/3);
+}
+.main-footer .account{
+    float: left;
+    width: calc(80%/3);
+}
+.main-footer .newsletter{
+    float: left;
+    width: calc(80%/3);
+}
+
+.main-footer .follow{
+    float: left;
+    width: calc(80%/3);
+}
+
+.newsletter .newsletter-form .newsletter-input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #000;
+}
+
+.follow{
+    float: left;
+}
+
+.follow .facebook{
+    float: left;
+    margin-left: 10px;
+}
+
+.follow .twitter{
+    float: left;
+}
+
+.end{
+    float: left;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background: #000;
+}

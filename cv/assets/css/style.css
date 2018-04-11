@@ -2,6 +2,7 @@ body {
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
+    
 }
 
 *{
@@ -21,6 +22,7 @@ body {
     border-bottom: 3px solid #f00;
     margin-bottom: 30px;
     padding-top: 35px;
+    zoom: 50%;
 }
 
 .main-header .container-img{
