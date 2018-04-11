@@ -101,10 +101,20 @@
 }
 .main .main-d-image{
     float: left;
+    width: 300px;
 }
 
 .main .main-d h2{
     font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.main .main-d a{
+    color: #000;
+    font-size: 24px;
+}
+
+.main .main-d p{
     margin-bottom: 10px;
 }
 
@@ -114,6 +124,8 @@
 .news .news-product{
     float: left;
     width: calc(100%/3);
+    text-align: center;    
+    
 }
 
 
@@ -123,12 +135,16 @@
     margin: 10px 0;
     width: 100%;
     float: left;
-    clear: both;    
+    clear: both;
 }
+
+
 
 .best-seller .best-seller-product{
     float: left;
     width: calc(100%/3);
+    text-align: center;    
+    
 }
 
 .best-seller h2{
