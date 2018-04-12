@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="valor1">
+    <input type="number" id="valor2">
+    <a href="#" id="calcular">calcular</a>
+    <div id="res"></div>
+
+    <script>
+        var v1 = document.getElementById("valor1");
+        console.log(v1.value);
+        var v2 = document.getElementById("valor2");
+        var link = document.getElementById("calcular");
+        var res = document.getElementById("res");
+
+        link.onclick = function(){
+            var resultado = parseInt(v1.value) + parseInt(v2.value);
+            res.innerHTML = resultado.toString();
+            return false;
+        }
+
+        
+    </script>
+</body>
+</html>
