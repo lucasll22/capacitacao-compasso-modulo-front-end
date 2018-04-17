@@ -1,0 +1,18 @@
+.hide{
+    display: none;
+}
+.slider img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.slider{
+    margin-left: 25px;
+    width: 400px;
+    display: inline-block;
+}
+
+.slick-prev:before, .slick-next:before{
+    color:red;
+}
