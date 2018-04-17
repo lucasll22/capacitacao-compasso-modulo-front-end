@@ -1,0 +1,32 @@
+        body{
+        	padding: 10px;
+        }
+
+        #container-resultado{
+            display: none;
+        }
+
+        .resultado-item{
+        	border: 1px solid #000;
+        	text-align: center;
+        	margin-top: 3px;
+        }
+
+        .resultado-titulo{
+        	font-size: 24px;
+        }
+
+        .resultado-preco{
+        	color: #060;
+        	font-weight: bold;
+        }
+
+        .resultado-link{
+        	color: #000;
+        	text-decoration: none;
+        	font-weight: bold;
+        }
+
+        .resultado-link:hover{
+        	color: #060;
+        }

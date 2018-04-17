@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        #container-resultado{
-            display: none;
-        }
-    </style>
+    <link rel="stylesheet" , href="ex2-1.css">
 </head>
 <body>
     <form action="" id="frm-busca">
@@ -89,12 +85,12 @@
             for(var k = 0; k < arResultadoBusca.length; k++)
             {
                 cl(arResultadoBusca[k]);
-                retorno += "<div>" +
-                "<h3>" + arResultadoBusca[k].nome + "</h3>"+
+                retorno += "<div class='resultado-item'>" +
+                "<h3 class = 'resultado-titulo'>" + arResultadoBusca[k].nome + "</h3>"+
                 "<img src='"+ arResultadoBusca[k].img + "'>"+
-                "<p>" + arResultadoBusca[k].preco + "</p>" +
-                "<p>" + arResultadoBusca[k].descricao + "</p>" +
-                "<p> <a href='" + arResultadoBusca[k].link + "'>" + arResultadoBusca[k].link + "</a></p>" +
+                "<p class = 'resultado-preco'>" + arResultadoBusca[k].preco + "</p>" +
+                "<p  class = 'resultado-descr'>" + arResultadoBusca[k].descricao + "</p>" +
+                "<p> <a class='resultado-link' href='" + arResultadoBusca[k].link + "'>" + arResultadoBusca[k].link + "</a></p>" +
                 "</div>";
             }
             cl(retorno);
